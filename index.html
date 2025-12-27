@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mabel Gerontóloga</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="script/carousel.js" defer></script>
+    <script src="script/faq.js" defer></script>
+    <script src="script/submit.js" defer></script>
+    <script src="script/modal.js" defer></script>
+</head>
+
+
+<body>
+    <section class="hero">
+        <div class="hero-content">
+            <img src="assets/hero/logo.png" alt="logo" class="hero-content-logo"
+                fetchpriority="high">
+            <h1 class="hero-content-title title">Atendimento Domiciliar e em Instituições: Cuidado Humanizado 24h para
+                Quem
+                Você Ama</h1>
+            <p class="hero-content-subtitle subtitle">Muito além do básico: um <span class="medium">serviço
+                    humanizado</span>
+                com terapias e plano individual, para que seu familiar viva com <span
+                    class="medium">segurança e qualidade de vida</span> todos os dias</p>
+            <div class="hero-content-ctas">
+                <a href="#form" class="cta cta1">Agende uma avaliação<svg class="cta1-svg"
+                        xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px"
+                        fill="#0D452E">
+                        <path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z" />
+                    </svg></a>
+                <a href="#video-container" class="btn-find-out-more"><svg class="btn-find-out-more-svg"
+                        xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="#444741">
+                        <path d="M320-200v-560l440 280-440 280Z" />
+                    </svg>Saiba mais</a>
+            </div>
+            <img src="assets/hero/vector-bg-hero.svg" alt="Fundo vetorizado hero" class="hero-content-bg"
+                fetchpriority="high">
+        </div>
+        <img src="assets/hero/main1.png" alt="casal de idosos sorrindo ao ar livre"
+            class="hero-image">
+    </section>
+    <section class="video" id="video-container">
+        <div class="video-container">
+            <video id="promo-video" class="video-player" controls playsinline preload="metadata" poster="assets/video/nurse-and-woman.webp">
+                <source src="assets/video/video.mp4" type="video/mp4">
+                Seu navegador não suporta a reprodução de vídeo.
+            </video>
+        </div>
+        <a href="#form" class="cta cta2">Agende uma avaliação<svg class="cta2-svg" xmlns="http://www.w3.org/2000/svg"
+                height="28px" viewBox="0 -960 960 960" width="28px" fill="#0D452E">
+                <path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z" />
+            </svg></a>
+    </section>
+    <section class="testimonials">
+        <h2 class="title testimonials-title">O que as famílias dizem do nosso atendimento</h2>
+        <div class="testimonials-containers">
+
+            <div class="testimonials-containers-container testimonials-containers-container1">
+                <div class="testimonials-containers-container-first">
+                    <img src="assets/testimonials/two-womans-smilling.webp" alt="duas mulheres idosas sorrindo"
+                        class="testimonials-containers-container-first-image" lazyload="lazy">
+                    <div class="testimonials-containers-container-first-content">
+                        <h4 class="testimonials-containers-container-first-content-title">Ana Paula</h4>
+                        <h5
+                            class="testimonials-containers-container-first-content-subtitle testimonials-containers-container-first-content-subtitle1">
+                            Filha da Dona Lurdes</h5>
+                        <div class="testimonials-containers-container-first-content-stars">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1.25rem" viewBox="0 -960 960 960"
+                                width="1.25rem" fill="#779896">
+                                <path
+                                    d="m233-120 65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1.25rem" viewBox="0 -960 960 960"
+                                width="1.25rem" fill="#779896">
+                                <path
+                                    d="m233-120 65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1.25rem" viewBox="0 -960 960 960"
+                                width="1.25rem" fill="#779896">
+                                <path
+                                    d="m233-120 65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1.25rem" viewBox="0 -960 960 960"
+                                width="1.25rem" fill="#779896">
+                                <path
+                                    d="m233-120 65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1.25rem" viewBox="0 -960 960 960"
+                                width="1.25rem" fill="#779896">
+                                <path
+                                    d="m233-120 65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials-containers-container-second">
+                    <div style="margin-top: -1.25rem; width: 7rem; height: 5.75rem; transform: rotate(0deg);">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#779896"
+                            style="width: 100%; height: 100%; transform: rotate(180deg);">
+                            <path
+                                d="m228-240 92-160q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 23-5.5 42.5T458-480L320-240h-92Zm360 0 92-160q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 23-5.5 42.5T818-480L680-240h-92Z" />
+                        </svg>
+                    </div>
+                    <p class="testimonials-containers-container-second-content">Antes do atendimento domiciliar, eu vivia
+                        em alerta 24h com medo de minha mãe cair. Hoje, <span class="semi-bold">durmo tranquila sabendo
+                            que ela está segura, feliz e cercada de cuidado.</span></p>
+
+                </div>
+            </div>
+
+            <div class="testimonials-containers-container testimonials-containers-container2">
+                <div class="testimonials-containers-container-first">
+                    <img src="assets/testimonials/two-old-men.webp" alt="dois homens idosos sorrindo"
+                        class="testimonials-containers-container-first-image" lazyload="lazy">
+                    <div class="testimonials-containers-container-first-content">
+                        <h4
+                            class="testimonials-containers-container-first-content-title testimonials-containers-container-first-content-title2">
+                            Ricardo Freitas</h4>
+                        <h5
+                            class="testimonials-containers-container-first-content-subtitle testimonials-containers-container-first-content-subtitle2">
+                            Filho do Sr. Osvaldo</h5>
+                        <div class="testimonials-containers-container-first-content-stars">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1.25rem" viewBox="0 -960 960 960"
+                                width="1.25rem" fill="#3F7372">
+                                <path
+                                    d="m233-120 65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1.25rem" viewBox="0 -960 960 960"
+                                width="1.25rem" fill="#3F7372">
+                                <path
+                                    d="m233-120 65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1.25rem" viewBox="0 -960 960 960"
+                                width="1.25rem" fill="#3F7372">
+                                <path
+                                    d="m233-120 65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1.25rem" viewBox="0 -960 960 960"
+                                width="1.25rem" fill="#3F7372">
+                                <path
+                                    d="m233-120 65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1.25rem" viewBox="0 -960 960 960"
+                                width="1.25rem" fill="#3F7372">
+                                <path
+                                    d="m233-120 65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials-containers-container-second">
+                    <div style="margin-top: -1.25rem; width: 7rem; height: 5.75rem; transform: rotate(0deg);">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#3F7372"
+                            style="width: 100%; height: 100%; transform: rotate(180deg);">
+                            <path
+                                d="m228-240 92-160q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 23-5.5 42.5T458-480L320-240h-92Zm360 0 92-160q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 23-5.5 42.5T818-480L680-240h-92Z" />
+                        </svg>
+                    </div>
+                    <p class="testimonials-containers-container-second-content">Meu pai achava que cuidado em casa não
+                        funcionava. Ele faz exercícios, música e me liga contando como <span
+                            class="semi-bold" style="color: var(--light-olive);">está feliz. Mudou a rotina dele — e a
+                            nossa.</span></p>
+
+                </div>
+            </div>
+
+            <div class="testimonials-containers-container testimonials-containers-container3">
+                <div class="testimonials-containers-container-first">
+                    <img src="assets/testimonials/two-old-woman-talking.webp" alt="dois homens idosos sorrindo"
+                        class="testimonials-containers-container-first-image" lazyload="lazy">
+                    <div class="testimonials-containers-container-first-content">
+                        <h4
+                            class="testimonials-containers-container-first-content-title testimonials-containers-container-first-content-title">
+                            Fernanda Ribeiro</h4>
+                        <h5
+                            class="testimonials-containers-container-first-content-subtitle testimonials-containers-container-first-content-subtitle1">
+                            Nora da Dona Nair</h5>
+                        <div class="testimonials-containers-container-first-content-stars">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1.25rem" viewBox="0 -960 960 960"
+                                width="1.25rem" fill="#CFD88D">
+                                <path
+                                    d="m233-120 65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1.25rem" viewBox="0 -960 960 960"
+                                width="1.25rem" fill="#CFD88D">
+                                <path
+                                    d="m233-120 65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1.25rem" viewBox="0 -960 960 960"
+                                width="1.25rem" fill="#CFD88D">
+                                <path
+                                    d="m233-120 65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1.25rem" viewBox="0 -960 960 960"
+                                width="1.25rem" fill="#CFD88D">
+                                <path
+                                    d="m233-120 65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1.25rem" viewBox="0 -960 960 960"
+                                width="1.25rem" fill="#CFD88D">
+                                <path
+                                    d="m233-120 65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials-containers-container-second">
+                    <div style="margin-top: -1.25rem; width: 7rem; height: 5.75rem; transform: rotate(0deg);">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#D0D88D"
+                            style="width: 100%; height: 100%; transform: rotate(180deg);">
+                            <path
+                                d="m228-240 92-160q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 23-5.5 42.5T458-480L320-240h-92Zm360 0 92-160q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 23-5.5 42.5T818-480L680-240h-92Z" />
+                        </svg>
+                    </div>
+                    <p
+                        class="testimonials-containers-container-second-content testimonials-containers-container-second-content3">
+                        <span class="semi-bold" style="color: var(--dark-teal);">Foi a melhor decisão que
+                            tomamos.</span> Em casa ou na instituição, ela está <span class="semi-bold"
+                            style="color: var(--dark-teal);">sempre bem cuidada,</span> ativa e com brilho nos olhos.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a href="#form" class="cta cta1">Agende uma avaliação<svg class="cta1-svg" xmlns="http://www.w3.org/2000/svg"
+                height="28px" viewBox="0 -960 960 960" width="28px" fill="#0D452E">
+                <path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z" />
+            </svg></a>
+    </section>
+    <section class="about">
+        <img src="assets/about/main.png" alt="homem idoso sorrindo" class="about-image" lazyload="lazy">
+        <img src="assets/about/portrait-senior-man-full.webp" alt="homem idoso sorrindo" class="about-image-cellphone"
+            lazyload="lazy">
+        <div class="about-content">
+            <h2 class="about-content-title title semi-bold">Quem sou eu ?<br>
+                Por que cuido com <span style="color: var(--dark-teal);">Gerontologia</span></h2>
+            <p class="about-content-text subtitle">Sou Mabel, gerontóloga. Minha atuação nasceu do desejo de ressignificar o
+                envelhecimento.
+                Não acredito que o cuidado do idoso deva ser apenas assistência — mas um <span class="semi-bold"
+                    style="color: var(--underworld);">novo começo.</span>
+                Atendo em domicílio e em instituições, com <span class="semi-bold"
+                    style="color: var(--underworld);">planos individualizados, terapias, rotina</span> e foco na
+                autonomia. </p>
+
+            <p class="about-content-text subtitle">Tenho pós em Geriatria e Gerontologia, Home Care, Andragogia,
+                Gamificação, Psicomotricidade e Neuropsicopedagogia; formação de cuidador de idosos e certificado em
+                Neurociências (USP). <span class="semi-bold" style="color: var(--underworld);">Meu compromisso é com o
+                    bem-estar físico, emocional e social</span> — do idoso e da família.</p>
+            <a href="#form" class="cta cta3">Agende uma avaliação<svg class="cta3-svg" xmlns="http://www.w3.org/2000/svg"
+                    height="28px" viewBox="0 -960 960 960" width="28px" fill="#0D452E">
+                    <path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z" />
+                </svg></a>
+        </div>
+    </section>
+    <section class="discover-the-serenita-village">
+        <div class="discover-the-serenita-village-content">
+            <div class="discover-the-serenita-village-content-left">
+                <h2 class="discover-the-serenita-village-content-left-title title">Conheça meu atendimento na prática
+                </h2>
+                <div class="discover-the-serenita-village-content-left-buttons">
+                    <button class="btn-prev"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                            viewBox="0 -960 960 960" width="24px" fill="#0D452E">
+                            <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z" />
+                        </svg></button>
+                    <button class="btn-next"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                            viewBox="0 -960 960 960" width="24px" fill="#0D452E">
+                            <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" />
+                        </svg></button>
+                </div>
+            </div>
+            <div class="discover-the-serenita-village-content-right">
+
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Activities -->
+                        <div class="swiper-slide"><img src="assets/carousel/activities/activitie-1.png" lazyload="lazy">
+                        </div>
+                        <div class="swiper-slide"><img src="assets/carousel/activities/activitie-2.png" lazyload="lazy">
+                        </div>
+                        <div class="swiper-slide"><img src="assets/carousel/activities/activitie-3.png" lazyload="lazy">
+                        </div>
+
+                        <!-- Rooms -->
+                        <div class="swiper-slide"><img src="assets/carousel/students/student-1.png" lazyload="lazy"></div>
+                        <div class="swiper-slide"><img src="assets/carousel/students/student-2.png" lazyload="lazy"></div>
+                        <div class="swiper-slide"><img src="assets/carousel/students/student-3.png" lazyload="lazy"></div>
+
+                    
+                    </div>
+                </div>
+
+                <div class="categories">
+                    <button data-index="0" class="ativo">Atividades</button>
+                    <button data-index="3">Alunas</button>
+
+                </div>
+
+
+            </div>
+        </div>
+        <a href="#form" class="cta cta1 cta-discover-the-serenita-village">Agende uma avaliação<svg class="cta1-svg"
+                xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="#0D452E">
+                <path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z" />
+            </svg></a>
+    </section>
+    <hr style="
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    height: 0.0625rem;
+    border: none;
+    background-color: var(--white-smoke);
+">
+    <section class="faq">
+        <h2 class="title faq-title">Dúvidas comuns sobre o atendimento gerontológico</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <button class="faq-question">
+                    1. Como funciona o atendimento domiciliar?
+                    <svg class="arrow" xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960"
+                        width="48px" fill="#DADED4">
+                        <path d="m304-82-56-57 343-343-343-343 56-57 400 400L304-82Z" />
+                    </svg>
+                </button>
+                <div class="faq-answer subtitle">
+                    Atendo em casa, com plano individual, visitas programadas e orientação à família.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    2. Você atende em instituições (asilos/ILPIs)?
+                    <svg class="arrow" xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960"
+                        width="48px" fill="#DADED4">
+                        <path d="m304-82-56-57 343-343-343-343 56-57 400 400L304-82Z" />
+                    </svg>
+                </button>
+                <div class="faq-answer subtitle">
+                    Sim. Realizo planos, estimulação, capacitação de equipe e acompanhamento.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    3. Quais profissionais podem compor o cuidado?
+                    <svg class="arrow" xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960"
+                        width="48px" fill="#DADED4">
+                        <path d="m304-82-56-57 343-343-343-343 56-57 400 400L304-82Z" />
+                    </svg>
+                </button>
+                <div class="faq-answer subtitle">
+                    Conforme a necessidade: médico, enfermagem, fisioterapia, fono, nutrição e TO.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    4. Como é a avaliação inicial?
+                    <svg class="arrow" xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960"
+                        width="48px" fill="#DADED4">
+                        <path d="m304-82-56-57 343-343-343-343 56-57 400 400L304-82Z" />
+                    </svg>
+                </button>
+                <div class="faq-answer subtitle">
+                    Anamnese, testes funcionais e cognitivos para definir metas e frequência.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    5. Atende convênios?
+                    <svg class="arrow" xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960"
+                        width="48px" fill="#DADED4">
+                        <path d="m304-82-56-57 343-343-343-343 56-57 400 400L304-82Z" />
+                    </svg>
+                </button>
+                <div class="faq-answer subtitle">
+                    Atendimento particular. Emissão de relatórios para reembolso quando aplicável.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    6. Há contrato com fidelidade?
+                    <svg class="arrow" xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960"
+                        width="48px" fill="#DADED4">
+                        <path d="m304-82-56-57 343-343-343-343 56-57 400 400L304-82Z" />
+                    </svg>
+                </button>
+                <div class="faq-answer subtitle">
+                    Não. O serviço é flexível e pode ser interrompido sem multa.
+                </div>
+            </div>
+        </div>
+        <a href="#form" class="cta cta1">Agende uma avaliação<svg class="cta1-svg" xmlns="http://www.w3.org/2000/svg"
+                height="28px" viewBox="0 -960 960 960" width="28px" fill="#0D452E">
+                <path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z" />
+            </svg></a>
+    </section>
+    <section class="form">
+        <div class="form-container">
+            <h2 class="form-container-title title">Agende uma Avaliação ou Converse comigo</h2>
+            <p class="form-container-subtitle subtitle">Preencha abaixo e receba um retorno personalizado:</p>
+            <form id="form" class="form-container-form" action="">
+
+                <div class="form-field">
+                    <input id="name" class="form-input" type="text" placeholder="Nome Completo" required>
+                </div>
+
+                <div class="form-field">
+                    <select id="service" class="form-input" required>
+                        <option value="">Tipo de atendimento</option>
+                        <option value="Domiciliar">Domiciliar</option>
+                        <option value="Instituição (ILPI)">Instituição (ILPI)</option>
+                        <option value="Avaliação/Orientação">Avaliação/Orientação</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="form-submit-button cta cta3">
+                    Agende uma avaliação
+                    <svg class="cta3-svg" xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960"
+                        width="28px" fill="#0D452E">
+                        <path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z" />
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <img src="assets/hero/logo.png" alt="logo" class="footer-logo"
+            lazyload="lazy">
+        <div class="footer-social-medias">
+            <a href="#"
+                class="footer-social-medias-box"><img src="assets/footer/linkedin-svg.svg" alt="logo linkedin"></a>
+            <a href="#" class="footer-social-medias-box"><img
+                    src="assets/footer/facebook-svg.svg" alt="logo linkedin"></a>
+            <a href="#" class="footer-social-medias-box"><img
+                    src="assets/footer/instagram-svg.svg" alt="logo linkedin"></a>
+        </div>
+        <div class="footer-links">
+            <a href="#" id="link-privacity">Aviso de privacidade</a> |
+            <a href="#" id="link-terms">Termos de uso</a>
+        </div>
+
+        <!-- Modal de Privacidade -->
+        <div id="modal-privacity" class="modal">
+            <div class="modal-content">
+                <span class="close" data-close="#modal-privacity">&times;</span>
+                <h2 class="title">Aviso de privacidade</h2>
+                <p class="subtitle">Aviso de Privacidade
+
+                    Este Aviso de Privacidade descreve como coletamos, usamos, armazenamos e protegemos as informações
+                    pessoais fornecidas por você ao utilizar nosso site.
+
+                    1. Coleta de informações
+                    Podemos coletar informações pessoais como nome, e-mail, telefone e dados enviados por formulários,
+                    bem como informações de navegação obtidas por meio de cookies e tecnologias similares.
+
+                    2. Uso das informações
+                    As informações coletadas são utilizadas para:
+
+                    Responder a solicitações e mensagens enviadas por você;
+
+                    Fornecer e melhorar nossos serviços;
+
+                    Enviar comunicações e atualizações relevantes;
+
+                    Cumprir obrigações legais.
+
+                    3. Compartilhamento de dados
+                    Não compartilhamos seus dados pessoais com terceiros, exceto quando necessário para o cumprimento de
+                    obrigações legais ou para a execução dos serviços contratados.
+
+                    4. Armazenamento e segurança
+                    Seus dados são armazenados de forma segura e protegidos contra acesso, alteração, divulgação ou
+                    destruição não autorizada.
+
+                    5. Seus direitos
+                    Você tem direito a acessar, corrigir, excluir ou solicitar a limitação do uso de seus dados
+                    pessoais. Para exercer esses direitos, entre em contato conosco.
+
+                    6. Alterações deste aviso
+                    Podemos atualizar este Aviso de Privacidade periodicamente. A versão mais recente estará sempre
+                    disponível em nosso site.
+
+                    7. Contato
+                    Em caso de dúvidas ou solicitações relacionadas a este aviso, entre em contato pelo e-mail:
+                    thiago@omniadigital.com.br.</p>
+            </div>
+        </div>
+
+        <!-- Modal de Termos -->
+        <div id="modal-terms" class="modal">
+            <div class="modal-content">
+                <span class="close" data-close="#modal-terms">&times;</span>
+                <h2 class="title">Termos de uso</h2>
+                <p class="subtitle">Bem-vindo(a) ao nosso site. Ao acessar e utilizar este site, você
+                    concorda com os termos e condições descritos abaixo. Recomendamos a leitura atenta antes de
+                    prosseguir.
+
+                    1. Finalidade do site
+                    Este site tem como objetivo apresentar nossa proposta, estrutura e serviços de atendimento
+                    gerontológico, bem como fornecer canais de contato para interessados e familiares.
+
+                    2. Uso adequado
+                    Ao utilizar nosso site, você se compromete a:
+
+                    Fornecer informações corretas e atualizadas nos formulários de contato;
+
+                    Utilizar os conteúdos e recursos de forma ética e respeitosa;
+
+                    Não realizar ações que possam comprometer a segurança, disponibilidade ou integridade do site.
+
+                    3. Conteúdo e propriedade intelectual
+                    Todos os textos, imagens, marcas, logotipos e demais conteúdos presentes no site são de propriedade
+                    do responsável por este site ou utilizados mediante autorização. É proibida a reprodução,
+                    distribuição ou modificação sem consentimento prévio por escrito.
+
+                    4. Limitação de responsabilidade
+                    As informações disponíveis no site têm caráter informativo. Embora nos esforcemos para manter o
+                    conteúdo atualizado e correto, não nos responsabilizamos por eventuais erros, omissões ou
+                    indisponibilidades temporárias.
+
+                    5. Contato e agendamento
+                    Os canais de contato disponibilizados no site destinam-se exclusivamente a atendimentos, dúvidas e
+                    agendamentos relacionados aos serviços aqui apresentados. As visitas devem ser previamente
+                    agendadas conforme nossa política interna.
+
+                    6. Alterações nos termos
+                    Reservamo-nos o direito de alterar ou atualizar estes Termos de Uso a qualquer momento.
+                    A versão mais recente estará sempre disponível no site.
+
+                    7. Contato
+                    Para dúvidas ou solicitações relacionadas a estes Termos de Uso, entre em contato conosco</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

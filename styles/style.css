@@ -1,0 +1,260 @@
+@import url(reset.css);
+@import url(hero.css);
+@import url(video.css);
+@import url(testimonials.css);
+@import url(about.css);
+@import url(discover-the-serenita-village.css);
+@import url(faq.css);
+@import url(form.css);
+@import url(footer.css);
+
+html {
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+
+/*Fonts-weight*/
+.light {
+    font-weight: 300;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+/*Colors*/
+:root {
+    --white: #FFFFFF;
+    --white-smoke: #E0E3E2;
+    --chrysler-arctic-white: #F6F7F4;
+    --off-white-gray: #F1F2EE;
+    --sage-gray:#898E7F;
+    --white-gray: #DADED4;
+    --medium-gray:#5D5D5D;
+    --tea-green: #D4EBC0;
+    --light-olive: #DAE29B;
+    --bright-olive:#CFD88D;
+    --pale-aqua: #C4D9D4;
+    --sage-green: #87A4A3;
+    --forest-green: #436F5C;
+    --dark-teal: #386665;
+    --lagoon-shadow: #444741;
+    --greendlewald: #0D452E;
+    --dark-green:#131712;
+    --underworld: #1D221B;
+    --deep-forest-green: #040F00;
+    --black: #000000;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--chrysler-arctic-white);
+    -webkit-font-smoothing: antialiased;
+}
+
+/* CTAS */
+.cta {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .625rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+    animation: pulse 2s infinite;
+    text-transform: uppercase;
+    padding: .9375rem 1.875rem;
+    border-radius: 99px;
+    text-decoration: none;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.cta1 {
+    color: var(--greendlewald);
+    background-color: var(--tea-green);
+    align-self: center;
+}
+
+.cta1:hover {
+    background-color: var(--greendlewald);
+    color: var(--chrysler-arctic-white);
+}
+
+.cta1:hover svg {
+    fill: var(--chrysler-arctic-white);
+}
+
+.cta1 svg {
+    transition: fill 0.5s ease-in-out;
+}
+
+.cta2 {
+    color: var(--greendlewald);
+    background-color: var(--white);
+    justify-self: center;
+}
+
+.cta2:hover {
+    background-color: var(--greendlewald);
+    color: var(--chrysler-arctic-white);
+}
+
+.cta2:hover svg {
+    fill: var(--chrysler-arctic-white);
+}
+
+.cta2-svg {
+    transition: fill 0.5s ease-in-out;
+}
+
+.cta3 {
+    margin-top: 4.375rem;
+    color: var(--off-white-gray);
+    background-color: var(--dark-teal);
+    align-self: center;
+}
+
+.cta3:hover {
+    background-color: var(--chrysler-arctic-white);
+    color: var(--greendlewald);
+}
+
+.cta3:hover svg {
+    fill: var(--greendlewald);
+}
+
+.cta3-svg {
+    fill: var(--off-white-gray);
+    transition: fill 0.5s ease-in-out;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    color: var(--deep-forest-green);
+    line-height: 130%;
+
+}
+
+.subtitle {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media (max-width: 992px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2.5rem;
+        line-height: 1.1;
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+        line-height: 1.2;
+    }
+
+    .cta {
+        font-size: 1.25rem;
+        padding: 1rem 2rem;
+        justify-self: center;
+    }
+
+    html {
+        font-size: 81.25%;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 2.3rem;
+        line-height: 1.1;
+    }
+
+    .subtitle {
+        font-size: 1.4rem;
+        line-height: 1.2;
+    }
+
+    .cta {
+        font-size: 1.125rem;
+        padding: .75rem 1.5rem;
+    }
+
+    html {
+        font-size: 65%;
+    }
+}
+
+@media (max-width: 320px) {
+    html {
+        font-size: 70%;
+    }
+}
+
+
+/* ANIMATIONS */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+
+::selection {
+    background-color: var(--bright-olive);
+    color: #ffffff; 
+}
+
+
+::-moz-selection {
+    background-color: var(--bright-olive);
+    color: #ffffff;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--dark-teal); 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--off-white-gray); 
+    border-radius: 10px; 
+
+}
+
+/* Thumb ao passar o mouse */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #06412A;
+}
